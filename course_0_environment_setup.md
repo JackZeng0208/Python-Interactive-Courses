@@ -2,7 +2,7 @@
 
 - Miniconda (including Python)
 - Visual Studio Code
-- Other necessary libraries 
+- Other necessary libraries
 
 # Miniconda
 
@@ -11,9 +11,18 @@
     - MacOS -> xxx-arm64.pkg
     - Windows -> Windows-x86_64.exe
     - Linux -> Linux-x86_64.sh
+      - chmod +x your_installation_script.sh
+      - ./your_installation_script.sh
 - Other: [Installing Miniconda — Anaconda documentation](https://docs.anaconda.com/free/miniconda/miniconda-install/)
   - Follow the docs directly
 
 ## Visual Studio Code
 
+- China Mainland: http://soft.qq.com/detail/16/detail_22856.html
 - Other: [Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
+
+## Other necessary libraries
+
+```bash
+pip install -r requirements.txt
+```

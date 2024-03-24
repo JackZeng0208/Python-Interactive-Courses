@@ -2,5 +2,6 @@
 jupyter
 ipython
 ipywidgets
+ipykernel
 matplotlib
 numpy
