@@ -1,0 +1,6 @@
+# Python libraries
+jupyter
+ipython
+ipywidgets
+matplotlib
+numpy
