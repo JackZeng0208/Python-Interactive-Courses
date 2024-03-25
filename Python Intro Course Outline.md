@@ -12,15 +12,25 @@
 
 [PhilipYip1988/python-tutorials: JupyterLab based Python Tutorials. These are detailed markdown tutorials covering installation, markdown, text datatypes, numeric data types, collections, programming constructs, the collections, itertools, math, random, datetime, statistics, sys, operating system, abc, csv and pickle modules, the numpy, pandas and matplotlib libraries. (github.com)](https://github.com/PhilipYip1988/python-tutorials/tree/main)
 
+[Python SpeedSheet](https://speedsheet.io/s/python)
+
+[Online Python Tutor - visualize, debug, get AI help for Python, Java, C, C++, and JavaScript](https://pythontutor.com/)
+
+[jackfrued/Python-100-Days: Python - 100天从新手到大师 (github.com)](https://github.com/jackfrued/Python-100-Days)
+
+[The Python Tutorial — Python 3.12.2 documentation](https://docs.python.org/3/tutorial/index.html)
+
 # Course Schedule (15 Courses, 2 hours)
 
-1. Introduction to Python
+1. Introduction to Python and courses, variable and assignments
 
+   - Course overview
    - Overview of Python and its applications
    - Installing Python and setting up the development environment
    - Running Python scripts and using the interactive shell
    - Basic syntax, comments, and indentation
-2. Variables, Data Types, and Operators
+   - Variable and assignments
+2. Data Types, and Operators
 
    - Variables and variable assignment
    - Numeric data types (int, float, complex)
@@ -58,7 +68,7 @@
    - Tuple methods and operations
    - Creating and manipulating sets
    - Set operations (union, intersection, difference)
-8. Data Structures: Dictionaries
+8. Data Structures: Dictionaries (including Defaultdict)
 
    - Creating and accessing dictionaries
    - Dictionary methods and operations
