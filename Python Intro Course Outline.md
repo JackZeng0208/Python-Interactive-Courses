@@ -30,9 +30,8 @@
    - Running Python scripts and using the interactive shell
    - Basic syntax, comments, and indentation
    - Variable and assignments
-2. Data Types, and Operators
+2. Data Types and Operators
 
-   - Variables and variable assignment
    - Numeric data types (int, float, complex)
    - String data type and string manipulation
    - Boolean data type and logical operators
