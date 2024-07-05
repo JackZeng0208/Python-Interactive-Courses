@@ -22,112 +22,113 @@
 
 # Course Schedule (15 Courses, 2 hours)
 
-#### **Session 1: Introduction to Python and Courses**
+#### Session 1: Introduction to Python and Courses
 
-* **Course Overview**
-* **Overview of Python and Its Applications**
-* **Installing Python and Setting Up the Development Environment**
-* **Running Python Scripts and Using the Interactive Shell**
-* **Basic Syntax, Comments, and Indentation**
+* Course Overview
+* Overview of Python and Its Applications
+* Installing Python and Setting Up the Development Environment
+* Running Python Scripts and Using the Interactive Shell
+* `print()` function
+* Basic Syntax, Comments, and Indentation
 
-#### **Session 2: Variables and Assignments, Data Types and Operators**
+#### Session 2: Variables and assignments, data types and input
 
-* **Variables and assignments**
-* **Numeric Data Types (int, float, complex)**
-* **String Data Type and String Manipulation**
-* **Boolean Data Type and Logical Operators**
-* **Type Conversion**
+* Variables and assignments
+* Numeric data types (int, float)
+* String data type (basic)
+* `input()` function
+* Type conversion
 
-#### **Session 3: Control Flow - Conditional Statements**
+#### Session 3: Control Flow - Conditional Statements
 
-* **If, Elif, and Else Statements**
-* **Comparison Operators**
-* **Nested Conditional Statements**
-* **Ternary Operator**
+* Boolean data type and its operators
+* If, Elif, and Else Statements
+* Nested conditional statements
+* Ternary operator
 
-#### **Session 4: Control Flow - Loops**
+#### Session 4: Control Flow - Loops
 
-* **While Loops**
-* **For Loops**
-* **Break, Continue, and Pass Statements**
-* **Nested Loops**
+* While Loops
+* For Loops
+* Break, Continue, and Pass Statements
+* Nested Loops
 
-#### **Session 5: Functions**
+#### Session 5: Functions
 
-* **Defining and Calling Functions**
-* **Parameters and Arguments**
-* **Return Values**
-* **Scope of Variables**
-* **Lambda Functions**
+* Defining and calling functions
+* Parameters and arguments
+* Return values
+* Scope of variables
+* Lambda Functions
 
-#### **Session 6: Data Structures - Lists**
+#### Session 6: Data Structures - Lists
 
-* **Creating and Accessing Lists**
-* **List Methods and Operations**
-* **Slicing Lists**
-* **List Comprehensions**
+* Creating and Accessing Lists
+* List Methods and Operations
+* Slicing Lists
+* List Comprehensions
 
-#### **Session 7: Data Structures - Tuples and Sets**
+#### Session 7: Data Structures - Tuples and Sets
 
-* **Creating and Accessing Tuples**
-* **Tuple Methods and Operations**
-* **Creating and Manipulating Sets**
-* **Set Operations (Union, Intersection, Difference)**
+* Creating and Accessing Tuples
+* Tuple Methods and Operations
+* Creating and Manipulating Sets
+* Set Operations (Union, Intersection, Difference)
 
-#### **Session 8: Data Structures - Dictionaries (Including Defaultdict)**
+#### Session 8: Data Structures - Dictionaries (Including Defaultdict)
 
-* **Creating and Accessing Dictionaries**
-* **Dictionary Methods and Operations**
-* **Iterating Over Dictionaries**
-* **Nested Dictionaries**
+* Creating and Accessing Dictionaries
+* Dictionary Methods and Operations
+* Iterating Over Dictionaries
+* Nested Dictionaries
 
-#### **Session 9: Strings and String Manipulation**
+#### Session 9: Strings and String Manipulation
 
-* **String Methods and Operations**
-* **Formatting Strings**
-* **Regular Expressions**
+* String Methods and Operations
+* Formatting Strings
+* Regular Expressions
 
-#### **Session 10: File Handling and Exception Handling**
+#### Session 10: File Handling and Exception Handling
 
-* **Opening and Closing Files**
-* **Reading from and Writing to Files**
-* **With Statement**
-* **Handling Exceptions with Try, Except, and Finally**
-* **Raising Exceptions**
-* **Creating Custom Exceptions**
+* Opening and Closing Files
+* Reading from and Writing to Files
+* With Statement
+* Handling Exceptions with Try, Except, and Finally
+* Raising Exceptions
+* Creating Custom Exceptions
 
-#### **Session 11: Modules and Packages**
+#### Session 11: Modules and Packages
 
-* **Importing Modules**
-* **Creating and Using Custom Modules**
-* **Introduction to Packages**
-* **Using Built-in and Third-Party Packages**
+* Importing Modules
+* Creating and Using Custom Modules
+* Introduction to Packages
+* Using Built-in and Third-Party Packages
 
-#### **Session 12: Object-Oriented Programming (OOP) Basics**
+#### Session 12: Object-Oriented Programming (OOP) Basics
 
-* **Classes and Objects**
-* **Attributes and Methods**
-* **Constructors**
-* **Inheritance**
+* Classes and Objects
+* Attributes and Methods
+* Constructors
+* Inheritance
 
-#### **Session 13: Advanced OOP Concepts**
+#### Session 13: Advanced OOP Concepts
 
-* **Polymorphism**
-* **Encapsulation**
-* **Abstract Classes and Interfaces**
-* **Operator Overloading**
-* **Decorators**
+* Polymorphism
+* Encapsulation
+* Abstract Classes and Interfaces
+* Operator Overloading
+* Decorators
 
-#### **Session 14: Recursion and Additional Techniques**
+#### Session 14: Recursion and Additional Techniques
 
-* **Introduction to Recursion**
-* **Recursive Functions**
-* **Memoization and Tail Recursion Optimization**
-* **Generators and Iterators**
-* **List and Dictionary Comprehensions Revisited**
+* Introduction to Recursion
+* Recursive Functions
+* Memoization and Tail Recursion Optimization
+* Generators and Iterators
+* List and Dictionary Comprehensions Revisited
 
-#### **Session 15: Final Project**
+#### Session 15: Final Project
 
-* **Project Assignment and Work**
-* **Review of Key Concepts**
-* **Q&A and Problem-Solving Session**
+* Project Assignment and Work
+* Review of Key Concepts
+* Q&A and Problem-Solving Session
