@@ -46,27 +46,27 @@
 * Nested conditional statements
 * Ternary operator
 
-#### Session 4: Control Flow - Loops
+#### Session 4: Data Structures - Lists
+
+* Creating and Accessing Lists
+* List Methods and Operations
+* Slicing Lists
+* List Comprehensions
+
+#### Session 5: Control Flow - Loops
 
 * While Loops
 * For Loops
 * Break, Continue, and Pass Statements
 * Nested Loops
 
-#### Session 5: Functions
+#### Session 6: Functions
 
 * Defining and calling functions
 * Parameters and arguments
 * Return values
 * Scope of variables
 * Lambda Functions
-
-#### Session 6: Data Structures - Lists
-
-* Creating and Accessing Lists
-* List Methods and Operations
-* Slicing Lists
-* List Comprehensions
 
 #### Session 7: Data Structures - Tuples and Sets
 
