@@ -1,0 +1,6 @@
+Product,Quantity,Price
+Laptop,2,800
+Mouse,5,20
+Keyboard,3,50
+Monitor,1,300
+Headset,4,70

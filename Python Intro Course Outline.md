@@ -84,7 +84,6 @@
 
 #### Session 9: Strings and String Manipulation
 
-* Immutable vs. mutable
 * String Methods and Operations
 * Formatting Strings
 * Regular Expressions

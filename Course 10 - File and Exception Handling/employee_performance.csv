@@ -1,0 +1,7 @@
+EmployeeID,Name,Department,MonthlySales,MonthlyHoursWorked
+E001,John,Sales,5000,160
+E002,Emma,Marketing,7000,150
+E003,Sam,Sales,6000,170
+E004,Olivia,HR,4000,160
+E005,David,Engineering,8000,180
+E006,Eve,Sales,9000,200
