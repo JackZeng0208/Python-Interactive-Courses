@@ -1,0 +1,6 @@
+2024-07-14 10:00:00 INFO Starting the process
+2024-07-14 10:01:00 ERROR Failed to load configuration
+2024-07-14 10:02:00 INFO Process completed successfully
+2024-07-14 10:03:00 WARNING Low disk space
+2024-07-14 10:04:00 ERROR Disk read error
+2024-07-14 10:05:00 INFO Shutting down

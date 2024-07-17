@@ -1,0 +1,6 @@
+Student,Math,Science,English
+John,85,78,92
+Jane,90,88,84
+Alex,75,85,80
+Emily,88,92,86
+Chris,80,76,89

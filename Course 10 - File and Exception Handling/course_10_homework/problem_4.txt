@@ -1,0 +1,11 @@
+Movie,Rating,Year
+Inception,8.8,2010
+The Dark Knight,9.0,2008
+Interstellar,8.6,2014
+The Matrix,8.7,1999
+Forrest Gump,8.8,1994
+The Shawshank Redemption,9.3,1994
+The Godfather,9.2,1972
+Pulp Fiction,8.9,1994
+Fight Club,8.8,1999
+The Lord of the Rings: The Return of the King,8.9,2003
