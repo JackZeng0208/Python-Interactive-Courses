@@ -111,21 +111,18 @@
 * Constructors
 * Inheritance
 
-#### Session 13: Advanced OOP Concepts
+#### Session 13: Advanced OOP Concepts and and additional techniques
 
-* Polymorphism
-* Encapsulation
 * Abstract Classes and Interfaces
 * Operator Overloading
 * Decorators
+* Generators and Iterators
 
-#### Session 14: Recursion and Additional Techniques
+#### Session 14: Recursion
 
 * Introduction to Recursion
 * Recursive Functions
 * Memoization and Tail Recursion Optimization
-* Generators and Iterators
-* List and Dictionary Comprehensions Revisited
 
 #### Session 15: Final Project
 
