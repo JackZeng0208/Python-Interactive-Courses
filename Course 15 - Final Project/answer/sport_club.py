@@ -18,23 +18,39 @@ class SportClub:
         """
         Add a new member to the club.
         - Prompt the user for member details.
+        - Check if the ID is unique before adding the new member.
+            - If the ID is not unique, print a message indicating the ID already exists and prompt for a new ID.
+        - Remember to generate input prompt messages for each attribute:
+            - ID
+            - Name
+            - Age
+            - Sport
+            - Membership Duration
+            - Satisfaction Score
         - Append the new member to the data list.
+        - Print a message indicating the member was added successfully.
         """
         new_member = {}
         new_member['ID'] = input("Enter ID: ")
-        new_member['Name'] = input("Enter name: ")
-        new_member['Age'] = input("Enter age: ")
-        new_member['Sport'] = input("Enter sport: ")
-        new_member['Membership Duration'] = input("Enter membership duration: ")
-        new_member['Satisfaction Score'] = input("Enter satisfaction score: ")
-        self.data.append(new_member)
+        while any(member['ID'] == new_member['ID'] for member in self.data):
+            print("ID already exists. Please enter a different ID.")
+            new_member['ID'] = input("Enter new ID: ")
+        else:
+            new_member['Name'] = input("Enter name: ")
+            new_member['Age'] = input("Enter age: ")
+            new_member['Sport'] = input("Enter sport: ")
+            new_member['Membership Duration'] = input("Enter membership duration: ")
+            new_member['Satisfaction Score'] = input("Enter satisfaction score: ")
+            self.data.append(new_member)
         print("New member added successfully.")
 
     def remove_member(self):
         """
         Remove a member from the club.
-        - Prompt the user for the ID of the member to remove.
+        - Prompt the ID of the member to remove (using input()).
+            - Remember to generate a input prompt message.
         - Remove the member with the matching ID from the data list.
+        - Print a message indicating the member was removed successfully.
         """
         member_id = input("Enter the ID of the member to remove: ")
         self.data = [member for member in self.data if member['ID'] != member_id]
@@ -44,7 +60,10 @@ class SportClub:
         """
         Update information for an existing member.
         - Prompt the user for the ID of the member to update.
+            - Remember to generate a input prompt message.
         - Update the details of the member with the matching ID.
+        - Print a message indicating the member was updated successfully, quit the function after updating the member.
+        - If the member is not found, print a message indicating the member was not found.
         """
         member_id = input("Enter the ID of the member to update: ")
         for member in self.data:
@@ -61,8 +80,8 @@ class SportClub:
     def sort_members(self):
         """
         Sort members based on a specified attribute.
-        - Prompt the user for the attribute to sort by.
         - Sort the data list by the specified attribute.
+        - Print a message indicating the members were sorted by the specified attribute.
         """
         sort_by = input("Enter the attribute to sort by (ID, Name, Age, Sport, Membership Duration, Satisfaction Score): ")
         self.data = sorted(self.data, key=lambda x: x[sort_by])
@@ -84,6 +103,8 @@ class SportClub:
         """
         View statistics of the club members.
         - Calculate and print total members and average satisfaction score.
+        - Print format: "Total Members: {total_members}"
+        - Print format: "Average Satisfaction Score: {average_satisfaction}" (rounded to 2 decimal places)
         """
         total_members = len(self.data)
         avg_satisfaction = sum(float(member['Satisfaction Score']) for member in self.data) / total_members

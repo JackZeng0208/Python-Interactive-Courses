@@ -19,7 +19,9 @@ class SportClub:
         """
         Add a new member to the club.
         - Prompt the user for member details.
-            - Remember to generate input prompt messages for each attribute:
+        - Check if the ID is unique before adding the new member.
+            - If the ID is not unique, print a message indicating the ID already exists and prompt for a new ID.
+        - Remember to generate input prompt messages for each attribute:
             - ID
             - Name
             - Age

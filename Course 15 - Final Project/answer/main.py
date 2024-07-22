@@ -24,9 +24,19 @@ def main():
     - Create an instance of the SportClub class.
     - Display the menu and handle user choices.
     - Save changes to the CSV file after each operation.
+
+    There are 8 menu options:
+    1. View all members
+    2. Add a new member
+    3. Remove an existing member
+    4. Update member information
+    5. Sort members
+    6. Filter members
+    7. View membership statistics
+    8. Exit
     """
     # Read data from CSV file
-    data = read_csv('Python-Interactive-Courses/Course 15 - Final Project/survey_database.csv')
+    data = read_csv('Python-Interactive-Courses/Course 15 - Final Project/answer/survey_database.csv')
     
     # Create a SportClub instance
     club = SportClub(data)
@@ -60,7 +70,7 @@ def main():
             print("Invalid choice. Please try again.")
         
         # Save changes after each operation
-        write_csv('Python-Interactive-Courses/Course 15 - Final Project/survey_database.csv', club.get_members_data())
+        write_csv('Python-Interactive-Courses/Course 15 - Final Project/answer/survey_database.csv', club.get_members_data())
 
 if __name__ == '__main__':
     main()
