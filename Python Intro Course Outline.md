@@ -1,3 +1,4 @@
+NOTE: The course schedule below does not match exactly the content in the Jupyter Notebook
 # References
 
 [CS50&#39;s Introduction to Programming with Python (harvard.edu)](https://cs50.harvard.edu/python/2022/)
@@ -95,14 +96,9 @@
 * With Statement
 * Handling Exceptions with Try, Except, and Finally
 * Raising Exceptions
-* Creating Custom Exceptions
+* Reading from CSV files
 
-#### Session 11: Modules and Packages
-
-* Importing Modules
-* Creating and Using Custom Modules
-* Introduction to Packages
-* Using Built-in and Third-Party Packages
+#### Session 11: Numpy and Matplotlib
 
 #### Session 12: Object-Oriented Programming (OOP) Basics
 
@@ -122,7 +118,7 @@
 
 * Introduction to Recursion
 * Recursive Functions
-* Memoization and Tail Recursion Optimization
+* Memoization
 
 #### Session 15: Final Project
 
