@@ -94,7 +94,11 @@ class SportClub:
         - Print the filtered members to the console.
         """
         filter_by = input("Enter the attribute to filter by (Age, Sport, Membership Duration, Satisfaction Score): ")
-        filter_value = input(f"Enter the value to filter {filter_by} by: ")
+        if filter_by == "Sport":
+            filter_value = input(f"Enter the value to filter {filter_by} by: ")
+        else:
+            filter_value = int(input(f"Enter the value to filter {filter_by} by: "))
+            
         filtered_members = [member for member in self.data if member[filter_by] == filter_value]
         for member in filtered_members:
             print(member)

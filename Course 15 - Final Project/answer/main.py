@@ -36,7 +36,7 @@ def main():
     8. Exit
     """
     # Read data from CSV file
-    data = read_csv('Python-Interactive-Courses/Course 15 - Final Project/answer/survey_database.csv')
+    data = read_csv('/Users/yixiaozeng/Python-Interactive-Courses/Course 15 - Final Project/answer/survey_database.csv')
     
     # Create a SportClub instance
     club = SportClub(data)
@@ -70,7 +70,7 @@ def main():
             print("Invalid choice. Please try again.")
         
         # Save changes after each operation
-        write_csv('Python-Interactive-Courses/Course 15 - Final Project/answer/survey_database.csv', club.get_members_data())
+        write_csv('/Users/yixiaozeng/Python-Interactive-Courses/Course 15 - Final Project/answer/survey_database.csv', club.get_members_data())
 
 if __name__ == '__main__':
     main()
